@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <%- include header %>
+    <h1><%= title %></h1>
+    <p><%- name %></p>
+   
+    <p>Welcome to <%= title %></p>
+    
+    
+  
+    <%if (!username) {%>
+    <div>
+        <input type="button" value="登录" onclick="location.href='/login'">
+        <input type="button" value="注册" onclick="location.href='/register'">
+    </div>
+    <%}else{%>
+        <div>
+            你好：<%= username %>
+            <input type="button" value="评论" onclick="location.href='/comment'">
+            <input type="button" value="注销" onclick="location.href='/logout'">
+        </div>
+    <%}%>
+    <img src="/images/ss.jpg" alt="">
+    <img src="/images/psbr.jpg" alt="">
+    <img src="/images/dd.jpg" alt="">
+  </body>
+</html>

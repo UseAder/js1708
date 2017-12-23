@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<!-- <script src="/javascripts/xheditor/jquery/jquery-1.11.2.min.js" charset="utf-8"></script>
+	<script src="/javascripts/xheditor/xheditor-1.2.2.min.js" charset="utf-8"></script>
+	<script src="/javascripts/xheditor/xheditor_lang/zh-cn.js" charset="utf-8"></script> -->
+	<title>评论</title>
+</head>
+<body>
+	<%- include header %>
+	<form action="/comment/submit" method="post" id="frmDemo">
+		标题：<input type="text" name="title" value="" />
+		<br/><br/>
+		内容：<textarea cols="120" rows="30" class="xheditor" name="content"></textarea>
+		<br/><br/>
+		<input type="submit" name="submit" value="提交">
+	</form>
+</body>
+</html>
