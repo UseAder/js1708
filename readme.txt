@@ -1,4 +1,4 @@
-´íÎó£ºrouter.use() requires middlevare function but got a object
-	router.use() ĞèÒªµÄÊÇÖĞ¼äÖµ£¬µ«µÃµ½µÄÊÇÒ»¸ö¶ÔÏó
-½â¾ö£º1.module.exports = router; ³ö¿ÚÎ´ÉèÖÃ
-      2.³ÌĞòÖÍÁô ÖØĞÂÆô¶¯
+é”™è¯¯ï¼šrouter.use() requires middlevare function but got a object
+	router.use() éœ€è¦çš„æ˜¯ä¸­é—´å€¼ï¼Œä½†å¾—åˆ°çš„æ˜¯ä¸€ä¸ªå¯¹è±¡
+è§£å†³ï¼š1.module.exports = router; å‡ºå£è¿˜æœªè®¾ç½®
+      2.ç¨‹åºæ»ç•™ é‡æ–°å¯åŠ¨
